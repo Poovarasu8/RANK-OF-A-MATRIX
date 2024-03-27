@@ -13,8 +13,8 @@ To write a python program to find the rank of a matrix
 /*
 Program to implement univariate Linear Regression to fit a straight line
 using least squares.
-Developed by:Kavya T
-RegisterNumber:2305003004
+Developed by:Poovarasu V
+RegisterNumber:2305002017
 */
 import numpy as np
 A=np.array([[5,-3,-10],[2,2,-3],[-3,-1,5]])
