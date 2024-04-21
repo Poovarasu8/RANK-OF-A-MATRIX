@@ -10,20 +10,21 @@ To write a python program to find the rank of a matrix
 ### Step 3: Using the np.linalg.matrix_rank(), we can find the rank of the given matrix.
 ### Step 4:end the program 
 ## Program:
-/*
-Program to implement univariate Linear Regression to fit a straight line
-using least squares.
-Developed by:Poovarasu V
-RegisterNumber:2305002017
-*/
+```
+#write a program to find the solution to a system of linear equations [5,-3,-10],[2,2,-3],[-3,-1,5]
+
+#prgram to find the rank of the matrix for the given matrix 
+#devoleped by : poovarasu
+#registerNumber:2305002017
+
 import numpy as np
-A=np.array([[5,-3,-10],[2,2,-3],[-3,-1,5]])
-rank=np.linalg.matrix_rank(A)
-print(rank)
-
+a=np.array([[5,-3,-10],[2,2,-3],[-3,-1,5]])
+rank = np.linalg.matrix_rank(a)
+print("the rank of the matrix a:",rank)
+```
 ## Output:
-![image](https://github.com/Poovarasu8/RANK-OF-A-MATRIX/assets/155505954/0448f5a2-cd4c-4883-834d-04442efb1227)
 
+![2](https://github.com/Poovarasu8/RANK-OF-A-MATRIX/assets/155505954/2d4dd50e-7627-4168-acce-34a2a3301187)
 
 ## Result:
 Thus the rank for the given matrix is successfully solved by  using a python program.
